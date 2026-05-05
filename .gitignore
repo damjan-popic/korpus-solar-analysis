@@ -1,11 +1,45 @@
+# Python / virtualenv
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.pyo
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS / editor
 .DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Generated analysis outputs
 analysis/*
 !analysis/.gitkeep
 reports/*
 !reports/.gitkeep
+
+# Large corpus files and derived exports
 data/annotated/*.conllu
-data/raw/solar-orig.conllu
+data/annotated/*.conllu.*
+data/raw/*.conllu
+data/raw/*.conllu.*
+data/raw/*.zip
+data/raw/*.gz
+data/raw/*.xz
+data/raw/*.7z
+data/raw/*.tar
+data/raw/*.tar.*
+
+# Local logs / scratch outputs
+*.log
+*.out
+*.tmp
+*.bak
+
+# Notebook checkpoints
+.ipynb_checkpoints/

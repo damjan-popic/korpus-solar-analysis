@@ -133,8 +133,6 @@ python scripts/solar_analysis.py \
   --make-plots
 ```
 
-This analysis step is CPU-bound. The heavy work here is pandas/statsmodels plus exploratory MWE extraction, so a quiet terminal or low GPU utilization is expected unless you are running the separate CLASSLA reannotation stage.
-
 Optional lexical sophistication reference list:
 
 ```bash
