@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+analysis/*
+!analysis/.gitkeep
+reports/*
+!reports/.gitkeep
+data/annotated/*.conllu
+data/raw/solar-orig.conllu

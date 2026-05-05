@@ -1,0 +1,36 @@
+{
+  "models_dir": "~/classla_resources_shared",
+  "download_models": false,
+  "report": "analysis/solar_analysis_report.md",
+  "reannotation": {
+    "input": "data/raw/solar-orig.conllu",
+    "output": "data/annotated/solar-classla.conllu",
+    "metadata": "data/metadata/solar-meta.tsv",
+    "diff_report": "reports/solar-classla-diff.tsv",
+    "summary": "reports/solar-classla-summary.json",
+    "errors": "reports/solar-classla-errors.tsv",
+    "validation_report": "reports/solar-classla-validation.tsv",
+    "metadata_id_columns": "OrigID,CorrID",
+    "metadata_strip_suffix_regex": "[st]$",
+    "min_metadata_match_ratio": 0.95,
+    "batch_size": 64,
+    "lang": "sl",
+    "classla_type": "standard",
+    "processors": "tokenize,pos,lemma,depparse,ner"
+  },
+  "analysis": {
+    "input": "data/annotated/solar-classla.conllu",
+    "metadata": "data/metadata/solar-meta.tsv",
+    "output_dir": "analysis",
+    "reference_freq": null,
+    "rare_top_n": 50,
+    "rare_min_count": 2,
+    "compute_mwe": true,
+    "mwe_min_n": 2,
+    "mwe_max_n": 4,
+    "mwe_min_count": 5,
+    "run_stats": true,
+    "run_models": true,
+    "make_plots": true
+  }
+}

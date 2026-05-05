@@ -1,0 +1,10 @@
+# sent_id = solar1.1.1
+1	Šolska	šolski	ADJ	Agpfsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	NER=O
+2	naloga	naloga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O
+3	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = solar1.2.1
+1	Ljubezen	ljubezen	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	NER=O
+2	je	biti	VERB	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	moč	moč	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	NER=O
+4	.	.	PUNCT	Z	_	2	punct	_	NER=O
