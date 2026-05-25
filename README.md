@@ -1,6 +1,6 @@
 # Šolar 3.0 lexical analysis pipeline
 
-Standalone repo for safe CLASSLA reannotation plus the full lexical/syntactic analysis described in the disposition.
+Standalone repo for safe CLASSLA reannotation plus the full lexical/syntactic analysis.
 
 ## What this pipeline does
 
