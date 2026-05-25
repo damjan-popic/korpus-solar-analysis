@@ -2,8 +2,6 @@
 
 Standalone repo for safe CLASSLA reannotation plus the full lexical/syntactic analysis described in the disposition.
 
-The repo is intentionally specific to Šolar. Generic tagging of unrelated corpora can live elsewhere; this project keeps the Solar metadata logic, ID preservation, and thesis-facing outputs in one place.
-
 ## What this pipeline does
 
 1. **Reannotates the original Šolar CoNLL-U with CLASSLA** while preserving:
